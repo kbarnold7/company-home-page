@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Join Blissful Essence Spa</title>
+    <link rel="stylesheet" href="../reset.css">
+    <link rel="stylesheet" href="join-team.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&display=swap">
+</head>
+<body>
+
+    <!--Header-->
+    <header id="top">
+        <div class="logo-container">
+            <a href="../index.html">
+                <img src="/resources/logos/business-logo-white.png" alt="business logo">
+            </a>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="../index.html#about">About</a></li>
+                <li><a href="../index.html#services">Services</a></li>
+                <li><a href="../index.html#team">Our Team</a></li>
+                <li><a href="../index.html#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="form-header">
+            <h1>Join Our Team!</h1>
+            <p>At Blissful Essence Spa, we are always looking for passionate and talented professionals to join our growing family. If you are dedicated to providing exceptional service, have a love for beauty and wellness, and thrive in a supportive, client-focused environment, we would love to hear from you! Whether you are a licensed cosmetologist, esthetician, massage therapist, or front desk coordinator, we offer a nurturing workplace where you can grow your career while helping clients feel their best. Join us in creating a space where beauty, relaxation, and well-being come together.</p>
+        </div>
+        <form action="http://127.0.0.1:3000/join-team-page/join-team.html" method="post">
+            <fieldset>
+                <label for="first-name">Enter Your First Name: <input type="text" id="first-name" name="first-name" required></label>
+                <label for="last-name">Enter Your Last Name: <input type="text" id="last-name" name="last-name" required></label>
+                <label for="email">Enter Your Email: <input type="email" id="email" name="email" required></label>
+                <label for="tel">Enter Your Phone Number: <br><span class="tel-format">Format: 123-456-7899</span> <input type="tel" id="tel" name="tel  required"></label>
+                <label for="resume">Upload Your Resume &lpar;required&rpar;: <input type="file" id="resume" name="resume" required></label>
+                <label for="addtional-info">Please provide any addtional information that you would like us to know &lpar;optional&rpar;: <textarea name="addtional-info" id="addtional-info" placeholder="I would be a great fit for Blissful Essence Spa because..."></textarea></label>
+            </fieldset>
+            <input type="submit" name="submit" value="Submit">
+        </form>
+    </main>
+    
+    <!--Footer-->
+    <footer>
+        <p class="copyright">&copy; Blissful Essence Spa 2024</p>
+    </footer>
+</body>
+</html>
